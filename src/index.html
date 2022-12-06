@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popeyes Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Solway:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/scss/main.scss">
+    <style>
+      body{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR SECTION -->
+
+    <nav class="navbar navbar-expand bg-light fw-bold sticky-top">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-block  d-none" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 py-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Franchising</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+            </ul>
+        
+            <a class="navbar-brand mx-auto py-2 text-primary fw-bolder" href="#"><h1>POPEYES</h1></a>
+            <button class="btn btn-sm btn-primary text-white fw-bold rounded-pill px-4 me-4" type="submit">Sign Up</button>
+            <button class="btn btn-sm btn-outline-primary d-lg-block  d-none rounded-pill px-4 text-primary me-5" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+                    <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+                  </svg>
+                0
+            </button>
+        </div>
+    </nav>
+
+    <!-- MAIN SECTION -->
+    
+    <main class="py-5 bg-danger">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-5 text-dark fw-bold">$6 Big Box</div>
+            </h1>
+            <p class="lead my-4 fw-bold">
+              Exclusively when you order ahead for pickup on Popeyes.com or the app.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg rounded-pill fw-bold text-light">Order Today</a>
+            <a href="#" class="text-dark fw-bold text-dark text-decoration-none fs-5 ms-3 pt-4"> See Full Menu </a>
+            <!-- offcanvas -->
+          </div>
+          <div class="col-md-5 text-center">
+            <span class="tt" data-bs-placement="bottom" title="Popeyes">
+              <img class="img-fluid" src="./assets/img/e020b6b3386bc417949c421883f1fe36.png" alt="Chicken">
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- card section -->
+
+    <section class="py-5 bg-danger">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-5 col-sm-12">
+            <div class="card">
+              <img src="./assets/img/chicken-burger.png" alt="C-burger" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Get Any Chicken Sandwich Combo for $6.99</h5>
+                <p class="card-text fs-6 text-start">Get Any Chicken Sandwich Combo for $6.99 when you order pick up on Popeyes.com or the app. <a href="#">Terms & Conditions</a></p>
+                <button class="btn btn-outline-primary rounded-pill fw-bold">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <div class="card rounded">
+              <img src="./assets/img/FM.png" alt="C-burger" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Make it a Family Meal</h5>
+                <p class="card-text fs-6 text-start">10Pc Classic or Spicy Mixed Signature Chicken, 2 Large Sides & 5 Biscuits.</p>
+                <button class="btn btn-outline-primary rounded-pill fw-bold">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 py-4">
+            <div class="card rounded">
+              <img src="./assets/img/pie.png" alt="C-burger" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Add Something Sweet</h5>
+                <p class="card-text fs-6 text-start">Warm, crispy crust on the outside, hot cinnamon apple goodness on the inside</a></p>
+                <button class="btn btn-outline-primary rounded-pill fw-bold">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 py-4">
+            <div class="card rounded">
+              <img src="./assets/img/lemonade.png" alt="C-burger" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Premium Lemonades
+                </h5>
+                <p class="card-text fs-6 text-start">Try a Premium Lemonade available in both chilled and frozen</p>
+                <button class="btn btn-outline-primary rounded-pill fw-bold">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 py-4">
+            <div class="card rounded">
+              <img src="./assets/img/team.png" alt="C-burger" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Join your local Popeyes® team</h5>
+                <p class="card-text fs-6 text-start">Popeyes® restaurants are hiring! Explore how you can join your local team today.</p>
+                <button class="btn btn-outline-primary rounded-pill fw-bold">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 py-4">
+            <div class="card rounded">
+              <img src="./assets/img/heart.png" alt="C-burger" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Popeyes Foundation</h5>
+                <p class="card-text fs-6 text-start">Donate to The Popeyes Foundation and support our communities across the U.S. through hunger relief efforts.
+                </p>
+                <button class="btn btn-outline-primary rounded-pill fw-bold">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <div class="py-5 bg-info d-lg-block d-none">
+      <div class="px-5" >
+        <div class="d-xl-flex flex-wrap flex-row" >
+          <a class="text-decoration-none text-white mx-2" href="#">Menu</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Company</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Our Story</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Open A Popeyes</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Locations</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Careers</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Trademarks</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Support</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Unsolicited Idea Policy</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Terms Of Service</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Privacy Policy</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Do Not Sell My Information</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Accesibility</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Sitemap</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Foundation</a>
+          <a class="text-decoration-none text-white mx-2" href="#">Investor Relations</a>
+        </div>
+      </div>
+      <div class="py-5">
+        <div class="px-5 text-white text-md-start fw-bold">
+          <p>
+            2,000 calories a day is used for general nutrition advice, but calorie needs vary
+          </p>
+          <p>
+            All pictures are shown for illustrative purposes only. Actual product may vary due to product enhancement.
+          </p>
+          <p>
+            TM & © 2021 Popeyes Louisiana Kitchen, Inc.
+          </p>
+          <p>
+            Prices may vary
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-end me-5">
+        <div>
+          <button class="btn btn-primary rounded-circle">
+            <svg fill="white" viewBox="0 0 17 16" width="15" aria-hidden="true"><title lang="en">Follow us on Instagram</title><path d="M8.082 0C5.91 0 5.637.01 4.784.048c-.852.04-1.433.174-1.942.372-.534.2-1.018.516-1.417.923-.407.4-.722.883-.923 1.417C.304 3.268.169 3.85.13 4.701c-.038.854-.048 1.126-.048 3.3 0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372.854.039 1.126.048 3.299.048s2.444-.01 3.298-.048c.851-.04 1.433-.174 1.942-.372a3.914 3.914 0 0 0 1.417-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942.038-.853.048-1.125.048-3.298s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.91 3.91 0 0 0 13.322.42c-.51-.198-1.092-.333-1.943-.372C10.525.01 10.254 0 8.08 0h.003-.001zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.452.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.705.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0-.128 8.217 4.109 4.109 0 0 0 .128-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" fill-rule="nonzero"></path></svg>
+          </button>
+          <button class="btn btn-primary rounded-circle">
+            <svg viewBox="0 0 10 20" fill="white" width="15" height="15" aria-hidden="true"><title lang="en">Follow us on Facebook</title><path d="M1.999 3.772v2.682H0v3.28h1.999v9.744h4.106V9.733h2.756s.258-1.572.383-3.291H6.12V4.2c0-.335.447-.786.89-.786h2.237V0H6.206C1.897 0 2 3.282 2 3.772z" fill-rule="evenodd"></path></svg>
+          </button>
+          <button class="btn btn-primary rounded-circle">
+            <svg viewBox="0 0 16 12" width="15" height="15" fill="white" aria-hidden="true"><title lang="en">Follow us on YouTube</title><path d="M15.84 2.495S16 3.827 16 5.158v1.248c0 1.33-.16 2.662-.16 2.662s-.157 1.133-.636 1.632c-.608.655-1.29.658-1.603.697-2.239.167-5.601.172-5.601.172s-4.16-.04-5.44-.166c-.356-.068-1.155-.048-1.765-.703C.316 10.201.16 9.068.16 9.068S0 7.737 0 6.406V5.158c0-1.331.16-2.663.16-2.663S.316 1.362.795.863C1.405.208 2.086.205 2.399.167 4.638 0 7.997 0 7.997 0h.007s3.358 0 5.597.167c.313.038.995.04 1.603.696.48.5.636 1.632.636 1.632zM6.348 7.918l4.322-2.303-4.323-2.319.001 4.622z" fill-rule="nonzero"></path></svg>
+          </button>
+          <button class="btn btn-primary rounded-circle">
+            <svg viewBox="0 0 15 12" width="15" height="15" fill="white" aria-hidden="true"><title lang="en">Follow us on Twitter</title><path d="M7.434 3.128l.03.508-.506-.062c-1.84-.239-3.45-1.048-4.815-2.408L1.476.492 1.304.99c-.365 1.11-.132 2.283.627 3.072.404.436.313.498-.385.238-.242-.083-.455-.145-.475-.114-.07.073.172 1.017.364 1.39.263.52.8 1.028 1.386 1.33l.496.238-.587.01c-.566 0-.587.01-.526.229.202.674 1.001 1.39 1.892 1.702l.627.218-.546.332c-.81.477-1.76.747-2.711.768-.456.01-.83.052-.83.083 0 .104 1.234.685 1.952.913 2.155.675 4.714.384 6.636-.768 1.366-.82 2.732-2.45 3.369-4.027.344-.84.688-2.376.688-3.113 0-.478.03-.54.597-1.11.333-.333.647-.696.708-.8.1-.197.09-.197-.425-.02-.86.31-.981.27-.557-.198.314-.332.688-.934.688-1.11 0-.031-.151.02-.323.114-.182.104-.587.26-.89.353l-.547.176-.496-.342c-.273-.187-.657-.395-.86-.457-.515-.145-1.304-.124-1.77.042-1.264.467-2.063 1.67-1.972 2.989z" fill-rule="evenodd"></path></svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
